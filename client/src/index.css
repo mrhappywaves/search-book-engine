@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Righteous', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Righteous', cursive;
+}
+
+.small {
+  font-weight: 300;
+}
+
+.text-light {
+  text-shadow: 2px 2px 4px #fff;
+}
+
+.card-img,
+.card-img-bottom {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 1rem;
 }
